@@ -2,14 +2,17 @@
 class Dog 
   
  def name=(dog_name)
-   @dog_name =
+    @this_dogs_name =    #### setter method 
+    dog_name
+  end
+  
+  def name
+    @this_dogs_name     #### getter method 
   end
 
- def name 
- end
- 
-
-
+  def bark
+    puts "woof!"
+  end 
 
 
 
